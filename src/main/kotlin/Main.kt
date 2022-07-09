@@ -5,6 +5,7 @@ import leetcode.tree.*
 import java.util.*
 
 fun main(args: Array<String>) {
+    println("Input ${args.contentToString()}")
     // println(LetterCombinations().letterCombinations("23"))
     // println(GenBraces().generateParenthesis(5))
     // println(PermuteSolution().permute(nums = intArrayOf(1,2,3)))

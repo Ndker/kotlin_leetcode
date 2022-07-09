@@ -6,7 +6,7 @@ import java.util.*
 
 class ZigzagSolution {
 
-    fun zigzagLevelOrder(root: TreeNode?): List<MutableList<Int?>?> {
+    fun zigzagLevelOrder(root: TreeNode?): List<MutableList<Int>> {
         if (root == null) {
             return emptyList()
         }
@@ -16,8 +16,8 @@ class ZigzagSolution {
         var nextLevel = Stack<TreeNode>()
 
         var leftToRight = true
-        val result: MutableList<MutableList<Int?>?> = ArrayList()
-        var current: MutableList<Int?>? = null
+        val result: MutableList<MutableList<Int>> = ArrayList()
+        var current: MutableList<Int>? = null
         // result.add(current);
 
         var levelChanged = true

@@ -8,7 +8,7 @@ class TreeNode {
     constructor(value: Int) {
         this.value = value
     }
-    constructor(value: Int, left: TreeNode, right: TreeNode) {
+    constructor(value: Int, left: TreeNode?, right: TreeNode?) {
         this.value = value
         this.left = left
         this.right = right

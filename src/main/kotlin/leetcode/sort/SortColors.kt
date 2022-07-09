@@ -7,7 +7,7 @@ class SortColors {
     fun sortColors(nums: IntArray): IntArray {
         val map = TreeMap<Int, Int>()
         for (i in nums.indices) {
-            map.compute(nums[i]) { key, value ->
+            map.compute(nums[i]) { _, value ->
                 if (value == null) 1 else value + 1
             }
         }
