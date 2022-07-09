@@ -1,4 +1,4 @@
-# kotlin_test
+# kotlin_leetcode
 Sandbox for tasks and leetcode
 
-See leetcode solutions in leetcode package
+See solutions in leetcode package
